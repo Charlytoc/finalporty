@@ -36,7 +36,7 @@ export default function Menu () {
     return <>
     <div className="menu">
         <div ><ActiveLink click={true} href={'/about'} className={"word fancy2"} id={'about'}>About me</ActiveLink></div>
-        <ActiveLink click={true} href={'/about'} className={"word fancy2"} id={'projects'}>Projects</ActiveLink>
+        <ActiveLink click={true} href={'/project/where2day'} className={"word fancy2"} id={'projects'}>Projects</ActiveLink>
         <Link href={'https://github.com/Charlytoc'} className={"word fancy2"} id={'github'}>Github</Link>
         <Link href={'https://www.linkedin.com/in/charlytoc/'} className={"word fancy2"} id={'linkedin'}>Linkedin</Link>
         <h2 onClick={showMenu}>x</h2>

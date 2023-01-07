@@ -98,7 +98,7 @@ nav div span:hover {
   padding: 3vmin;
 }
 #text:has(.fancy:hover) .word:not(.fancy:hover) {
-  opacity: 0.2;
+  opacity: 0.1;
 }
 
 .fancy:hover > .letter:nth-child(n) {

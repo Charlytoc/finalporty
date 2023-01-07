@@ -1,6 +1,7 @@
 import Menu from './components/menu'
 import './globals.css'
 import './about.css'
+import './projects.css'
 
 export default function RootLayout({ children }) {
   return (
