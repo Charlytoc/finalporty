@@ -1,6 +1,7 @@
 'use client'
 
 import Link from "next/link";
+import ActiveLink from "./linked";
 
 export default function Navbar () {
     const showMenu = () => {
@@ -16,7 +17,7 @@ export default function Navbar () {
         }
     }
     return <>
-    <nav><div><Link href={'/'}>Charlytoc</Link></div>
+    <nav><div><ActiveLink href={'/'}>Charlytoc</ActiveLink></div>
    <h2 onClick={showMenu}>=</h2></nav>
    </>
 }

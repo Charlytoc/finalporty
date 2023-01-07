@@ -1,5 +1,7 @@
 'use client'
+import Link from "next/link";
 import { useEffect } from "react";
+import ActiveLink from "./linked";
 export default function Menu () {
     const enhance = id => {
         const elem = document.getElementById(id),
@@ -33,7 +35,7 @@ export default function Menu () {
     }
     return <>
     <div className="menu">
-        <div className="word fancy2" id="about">About</div>
+        <div ><ActiveLink click={true} href={'/about'} className={"word fancy2"} id={'about'}>About me</ActiveLink></div>
         <div className="word fancy2" id="projects">Projects</div>
         <div className="word fancy2" id="github">GitHub</div>
         <div className="word fancy2" id="linkedin">Linkedin</div>

@@ -51,15 +51,25 @@ nav h2 {
   padding: 0.8rem;
   border-radius: 50%;
 }
-nav h2:hover {
-  background: linear-gradient(132deg, var(--clr-flower), var(--clr-active));
+nav h2 {
   cursor: pointer;
 }
-nav div a {
+nav h2:hover {
+  background: linear-gradient(132deg, var(--clr-flower), var(--clr-active));
+}
+.linked {
+  cursor: pointer;
+}
+nav div > span {
   text-decoration: none;
   color: var(--clr-font);
 }
-nav div a:hover {
+nav div span > a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  background-color: yellowgreen;
+}
+nav div span:hover {
   background: linear-gradient(132deg, var(--clr-flower), var(--clr-active));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

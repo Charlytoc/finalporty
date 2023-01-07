@@ -1,3 +1,4 @@
+
 .scrollpy {
     width: 100vw;
     height: 100vh;
@@ -5,7 +6,6 @@
     margin-bottom: 4rem;
 }
 .scrollpy-1 {
-    background: var(--gradient);
     background-image: url('../public/haikei.svg');
 }
 .scrollpy-1 div {
@@ -18,10 +18,10 @@
 }
 .scrollpy-1 div h1 {
     letter-spacing: 0.6rem;
-
 }
 .scrollpy-1 div span {
     display: inline-block;
+    font-size: 1.5rem;
     animation: color-changing 3s linear infinite;
 }
 @keyframes color-changing {
@@ -67,9 +67,7 @@
     opacity: 1;
     transition: all 500ms;
 }
-.scrollpy-2 {
-    background: var(--gradient-2);
-}
+
 .scrollpy > h1 {
     text-align: center;
     font-size: 3rem;
@@ -95,10 +93,26 @@
 }
 .scrollpy div > div > h2 {
     font-size: 2.5rem;
+    
+}
+.scrollpy div > div > h3 {
+    font-size: 1.4rem;
+    align-items: center;
+    display: flex;
+    
+}
+.scrollpy div > div > h3 > span {
+    display: inline-block;
+    animation: color-changing 3s linear infinite;
+}
+.scrollpy div > div > h3 > span:hover {
+    animation: dicky 500ms linear infinite;
+    cursor: pointer;
 }
 .scrollpy div > div > p {
     font-size: 1.3rem;
     opacity: 0.3;
+    
 }
 .scrollpy-2 div > div > p {
     color: #ff9681;
@@ -141,3 +155,11 @@
     border-radius: 10px;
     /* height: 10px; */
   }
+.ball {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: var(--gradient);
+    border-radius: 50%;
+
+}
