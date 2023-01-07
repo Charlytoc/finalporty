@@ -1,0 +1,85 @@
+.scrollpy {
+    width: 100vw;
+    height: 100vh;
+}
+.scrollpy-1 {
+    background: var(--gradient);
+}
+.scrollpy-1 div {
+    font-size: 1rem;
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(0, -50%);
+}
+.scrollpy-1 div h1 {
+    letter-spacing: 0.3rem;
+
+}
+.scrollpy-1 div span {
+    display: inline-block;
+    animation: color-changing 3s linear infinite;
+}
+@keyframes color-changing {
+    0%{
+        color: #fff;
+    }
+    33%{
+        color: #ff9681;
+    }
+    66%{
+        color: #9592a6;
+    }
+    100%{
+        color: #fff;
+    }
+}
+.scrollpy-1 div span:hover {
+    animation: dicky 500ms linear infinite;
+    cursor: pointer;
+    color: #fff;
+}
+@keyframes dicky {
+    0%{
+        transform: translateX(-6px);}
+    20%{transform: translate(5px, 0);}
+    30%{transform: translate(-4px, 0);}
+    60%{transform: translate(3px, 0);}
+    100%{transform: translate(-1px, 0);}
+    
+    
+}
+.scrollpy-1  a {
+    opacity: 0.5;
+    font-size: 13rem;
+    text-decoration: none;
+    color: inherit;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+.scrollpy-1  a:hover {
+    opacity: 1;
+    transition: all 500ms;
+}
+.scrollpy-2 {
+    background: var(--gradient-2);
+    height: 200vh;
+}
+.scrollpy-4 {
+    background: var(--gradient);
+}
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background: var(--gradient-2);
+  }
+  
+  /* Style the thumb (the part of the scrollbar the user can interact with) */
+  ::-webkit-scrollbar-thumb {
+    background: var(--gradient);
+    border-radius: 10px;
+    /* height: 10px; */
+  }

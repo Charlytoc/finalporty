@@ -1,4 +1,5 @@
 'use client'
+import Link from "next/link";
 import { useEffect } from "react";
 export default function Fancy () {
 
@@ -21,11 +22,12 @@ export default function Fancy () {
         enhance('learning-enthusiast');
     }, [])
     return <>
-    <div id="greeting"></div>
     <div id='text'>
+    <Link href={'/about'}>
       <div className='line'>
       <p id="about-me" className='word fancy'>Hi, I'm Charly</p>
       </div>
+      </Link>
       <div className='line'>
         <p id="developer" className='word fancy'>Developer</p>
       </div>

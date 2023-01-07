@@ -6,6 +6,8 @@
   --clr-active: #9592a6;
   --clr-flower: #ff9681;
   --font-bold: 'Quicksand', sans-serif;
+  --gradient: linear-gradient(132deg, var(--clr-flower), var(--clr-active));
+  --gradient-2: linear-gradient(132deg, var(--clr-bg), #e1e1e1);
 }
 
 * {
@@ -22,6 +24,8 @@ body {
   background-color: var(--clr-bg);
   font-family: var(--font-bold);
   font-size: 4vmin;
+  font-weight: 600;
+  scroll-behavior: smooth;
 }
 
 nav {
@@ -51,20 +55,24 @@ nav h2:hover {
   background: linear-gradient(132deg, var(--clr-flower), var(--clr-active));
   cursor: pointer;
 }
-.redirects {
-  display: flex;
-  flex-direction: column;
-  width: auto;
-  height: 50vh;
-  color: var(--clr-active);
-  justify-content: center;
-  align-items: center;
-  line-height: 4rem;
-  font-size: 3rem;
+nav div a {
+  text-decoration: none;
+  color: var(--clr-font);
 }
-
+nav div a:hover {
+  background: linear-gradient(132deg, var(--clr-flower), var(--clr-active));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 #text {
   padding: 3vmin;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#text > a {
+  text-decoration: none ;
 }
 .line {
   display: block;
@@ -88,30 +96,39 @@ nav h2:hover {
   transform: translate(-1%, 10%);
   transition: transform 300ms;
   background: linear-gradient(132deg, var(--clr-flower), var(--clr-active));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .fancy:hover > .letter:nth-child(n+6) {
   display: inline-block;
   transform: translate(-10%, 10%);
   transition: transform 300ms;
   background: linear-gradient(132deg, var(--clr-flower), var(--clr-active));
-  /* -webkit-background-clip: text; */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 
   
 }
+
 .fancy:hover > .letter:nth-child(2n+5) {
   display: inline-block;
   transform: translate(-5%, 5%);
   transition: transform 300ms;
   background: linear-gradient(132deg, var(--clr-flower), var(--clr-active));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .fancy:hover > .letter:nth-child(3n+1) {
   display: inline-block;
   transform: translate(6%, -15%);
   transition: transform 300ms;
   background: linear-gradient(132deg, var(--clr-flower), var(--clr-active));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .letter {
   border-radius: 3px 10px 2px 24px;
+  
 }
 .menu {
   display: flex;
@@ -123,6 +140,7 @@ nav h2:hover {
   font-size: 3rem;
   line-height: 5rem;
   background: linear-gradient(132deg, var(--clr-flower), var(--clr-active));
+  text-transform: uppercase;
 }
 
 .menu h2 {
@@ -145,19 +163,23 @@ nav h2:hover {
 }
 .fancy2:hover {
   cursor: pointer;
+  
 }
 .fancy2:hover > .letter:nth-child(n) {
   display: inline-block;
   transform: translate(-1%, 10%);
   transition: transform 300ms;
   background: linear-gradient(132deg, var(--clr-bg), #e1e1e1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .fancy2:hover > .letter:nth-child(n+6) {
   display: inline-block;
   transform: translate(-10%, 10%);
   transition: transform 300ms;
   background: linear-gradient(132deg, var(--clr-bg), #e1e1e1);
-  /* -webkit-background-clip: text; */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 
   
 }
@@ -166,10 +188,14 @@ nav h2:hover {
   transform: translate(-5%, 5%);
   transition: transform 300ms;
   background: linear-gradient(132deg, var(--clr-bg), #e1e1e1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .fancy2:hover > .letter:nth-child(3n+1) {
   display: inline-block;
   transform: translate(6%, -15%);
   transition: transform 300ms;
   background: linear-gradient(132deg, var(--clr-bg), #e1e1e1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
