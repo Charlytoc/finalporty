@@ -1,3 +1,4 @@
+import Menu from './components/menu'
 import './globals.css'
 
 export default function RootLayout({ children }) {
@@ -8,7 +9,14 @@ export default function RootLayout({ children }) {
         head.jsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body>{children}</body>
+      <body>
+        <div style={{display: 'none'}} id='menu'>
+          <Menu />
+        </div>
+        <div id='mr-all'>
+        {children}
+        </div>
+        </body>
     </html>
   )
 }
