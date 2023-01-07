@@ -168,6 +168,10 @@ nav div span:hover {
   cursor: pointer;
   background: linear-gradient(132deg, var(--clr-bg), #e1e1e1);
 }
+.menu a {
+  text-decoration: none;
+  color: var(--clr-font);
+}
 .menu:has(.fancy2:hover) .word:not(.fancy2:hover) {
   opacity: 0.2;
 }
