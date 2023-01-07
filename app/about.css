@@ -1,9 +1,12 @@
 .scrollpy {
     width: 100vw;
     height: 100vh;
+    overflow: hidden;
+    margin-bottom: 4rem;
 }
 .scrollpy-1 {
     background: var(--gradient);
+    background-image: url('../public/haikei.svg');
 }
 .scrollpy-1 div {
     font-size: 1rem;
@@ -14,7 +17,7 @@
     transform: translate(0, -50%);
 }
 .scrollpy-1 div h1 {
-    letter-spacing: 0.3rem;
+    letter-spacing: 0.6rem;
 
 }
 .scrollpy-1 div span {
@@ -66,8 +69,63 @@
 }
 .scrollpy-2 {
     background: var(--gradient-2);
-    height: 200vh;
 }
+.scrollpy > h1 {
+    text-align: center;
+    font-size: 3rem;
+    background: linear-gradient(132deg, var(--clr-flower), var(--clr-active));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} 
+.scrollpy-2 div {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    padding: 0 1.5rem 0 1.5rem;
+}
+.scrollpy-3 div {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    padding: 0 1.5rem 0 1.5rem;
+}
+.scrollpy div > div > h2, p {
+    /* background-color: #9592a6; */
+    text-align: center;
+}
+.scrollpy div > div > h2 {
+    font-size: 2.5rem;
+}
+.scrollpy div > div > p {
+    font-size: 1.3rem;
+    opacity: 0.3;
+}
+.scrollpy-2 div > div > p {
+    color: #ff9681;
+}
+.scrollpy-3 div > div > p {
+    color: #9592a6;
+}
+@media (min-width: 700px) {
+    /* Estilos a aplicar si el ancho es mayor a 800 píxeles */
+    .scrollpy-2 div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .scrollpy-2 div > div {
+        flex-direction: column;
+    }
+    .scrollpy-3 div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .scrollpy-3 div > div {
+        flex-direction: column;
+    }
+  }
+
 .scrollpy-4 {
     background: var(--gradient);
 }

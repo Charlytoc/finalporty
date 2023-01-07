@@ -7,7 +7,7 @@
   --clr-flower: #ff9681;
   --font-bold: 'Quicksand', sans-serif;
   --gradient: linear-gradient(132deg, var(--clr-flower), var(--clr-active));
-  --gradient-2: linear-gradient(132deg, var(--clr-bg), #e1e1e1);
+  --gradient-2: linear-gradient( var(--clr-bg), #f5f5f5, var(--clr-bg));
 }
 
 * {
