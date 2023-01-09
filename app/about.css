@@ -1,10 +1,14 @@
 
-.scrollpy {
+.scrollpy:not(.ignore) {
     width: 100vw;
     height: 100vh;
     overflow: hidden;
     margin-bottom: 4rem;
 }
+.ignored {
+    margin-bottom: 3rem;
+}
+
 .scrollpy-1 {
     background-image: url('../public/haikei.svg');
 }
@@ -88,17 +92,17 @@
     padding: 0 1.5rem 0 1.5rem;
 }
 .scrollpy div > div > h2, p {
-    /* background-color: #9592a6; */
     text-align: center;
 }
 .scrollpy div > div > h2 {
     font-size: 2.5rem;
     
 }
-.scrollpy div > div > h3 {
-    font-size: 1.4rem;
+.scrollpy div > div > h3:not(.ignore) {
+    font-size: 1.3rem;
     align-items: center;
     display: flex;
+    margin-bottom: 5rem;
     
 }
 .scrollpy div > div > h3 > span {

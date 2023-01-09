@@ -121,9 +121,7 @@ export default function Where2day () {
             <h1>Do you want to see a little bit more?</h1>
             <div>
             <div>
-                <h2>Check out the next project</h2>
-                <p>Later...<br/> 
-                </p>
+                <h2><ActiveLink href={'/project/starwars'}>Check out the next project</ActiveLink></h2>
                 <h3>
                 </h3>
             </div>

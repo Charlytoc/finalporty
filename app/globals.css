@@ -34,8 +34,8 @@ nav {
   padding: 5vmin;
   justify-content: space-between;
   align-items: center;
-  position: sticky;
-  top: 0;
+  z-index: 3;
+
 }
 nav div {
   font-size: 2rem;
@@ -67,7 +67,6 @@ nav div > span {
 nav div span > a {
   text-decoration: none;
   font-size: 1.5rem;
-  background-color: yellowgreen;
 }
 nav div span:hover {
   background: linear-gradient(132deg, var(--clr-flower), var(--clr-active));

@@ -1,6 +1,4 @@
 'use client'
-
-import Link from "next/link";
 import ActiveLink from "./linked";
 
 export default function Navbar () {

@@ -33,7 +33,7 @@ export default function About () {
                 <p>At: 4GeeksAcademy <br/> Date: April 2022 - November 2022 <br/> 
                 </p>
                 <h3>
-                The bootcamp I did at this academy helped me get much deeper into the world of programming, I had been loving design for years, and when I started programming I discovered my passion
+                The bootcamp I did at this academy helped me get much deeper into the world of programming, I had been loving design for years, and when I started programming I discovered my passion.
                 </h3>
             </div>
             </div>
@@ -115,17 +115,16 @@ export default function About () {
                 <h2>Frontend</h2>
                 <p>I usually make UI and UX with the next technologies<br/> 
                 </p>
-                <h3>
+                <h3 className='ignore'>
                 <span className='ball'></span> Typescript  
-             
                 </h3>
-                <h3>
+                <h3 className='ignore'>
                 <span className='ball'></span>Tailwind
                 </h3>
-                <h3>
+                <h3 className='ignore'>
                 <span className='ball'></span>React
                 </h3>
-                <h3>
+                <h3 >
                 <span className='ball'></span>GSAP
                 </h3>
             </div>
@@ -137,17 +136,17 @@ export default function About () {
                 <h2>Backend</h2>
                 <p>From the back I work with<br/> 
                 </p>
-                <h3>
+                <h3 className='ignore'>
                 <span className='ball'></span>Python 
              
                 </h3>
-                <h3>
+                <h3 className='ignore'>
                 <span className='ball'></span>Flask
                 </h3>
-                <h3>
+                <h3 className='ignore'>
                 <span className='ball'></span>GraphQL
                 </h3>
-                <h3>
+                <h3 className='ignore'>
                 <span className='ball'></span>ExpressJS
                 </h3>
             </div>
@@ -166,16 +165,16 @@ export default function About () {
                 <h2>Testing and others</h2>
                 <p>Useful tools I learned for the years<br/> 
                 </p>
-                <h3>
+                <h3 className='ignore'>
                 <span className='ball'></span>Docker
                 </h3>
-                <h3>
+                <h3 className='ignore'>
                 <span className='ball'></span>Jest
                 </h3>
-                <h3>
+                <h3 className='ignore'>
                 <span className='ball'></span>MySQL
                 </h3>
-                <h3>
+                <h3 >
                 <span className='ball'></span>Agile
                 </h3>
             </div>
