@@ -9,6 +9,9 @@ export default function Head() {
       <link precedence='default' rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
       <link precedence='default' href="https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@500&family=Montserrat&display=swap" rel="stylesheet"></link>
       <link precedence='default' href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet"></link>
+    
+
+
     </>
   )
 }

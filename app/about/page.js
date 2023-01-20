@@ -183,7 +183,7 @@ export default function About () {
                 <p>Learning is the thing I love the most, so<br/> 
                 </p>
                 <h3 style={{display: 'block'}}>
-                    I'll be happy with the opportunity to learn new things, if you have an offer just <ActiveLink href={'/'}>contact me!</ActiveLink>
+                    I'll be happy with the opportunity to learn new things, if you have an offer just <ActiveLink href={'/contact'}>contact me!</ActiveLink>
                 </h3>
             </div>
             </div>

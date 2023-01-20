@@ -20,6 +20,7 @@ export default function Menu () {
         enhance('projects');
         enhance('github');
         enhance('linkedin');
+        enhance('contact');
     }, [])
     const showMenu = () => {
         let menu = document.getElementById('menu')
@@ -39,6 +40,8 @@ export default function Menu () {
         <ActiveLink click={true} href={'/project/where2day'} className={"word fancy2"} id={'projects'}>Projects</ActiveLink>
         <Link href={'https://github.com/Charlytoc'} className={"word fancy2"} id={'github'}>Github</Link>
         <Link href={'https://www.linkedin.com/in/charlytoc/'} className={"word fancy2"} id={'linkedin'}>Linkedin</Link>
+
+        <ActiveLink click={true} href={'/contact'} className={"word fancy2"} id={'contact'}>contact</ActiveLink>
         <h2 onClick={showMenu}>x</h2>
     </div>
     </>
