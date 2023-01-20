@@ -7,6 +7,7 @@ import database from '../../../public/img-4.png'
 import frontend from '../../../public/img-5.png'
 import backend from '../../../public/backend.svg'
 import Link from "next/link"
+import Footer from "../../components/footer"
 export default function StarWars () {
     return <>
     <div className="scrollpy scrollpy-1">
@@ -87,6 +88,6 @@ export default function StarWars () {
             </div>
         </div>
         {/* End of section */}
-      
+            <Footer />
         </>
 }

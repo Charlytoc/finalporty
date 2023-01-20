@@ -3,6 +3,7 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import Navbar from '../components/navbar';
 import { useRouter } from 'next/navigation'
+import Footer from '../components/footer';
 export default function Contact () {
   const form = useRef();
   const router = useRouter()
@@ -34,6 +35,7 @@ export default function Contact () {
       <input type="text" name='interest'/>
       <input className='click' type="submit" value="Send" />
     </form>
+    <Footer />
     </>
   );
 };

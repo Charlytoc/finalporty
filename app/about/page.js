@@ -8,6 +8,7 @@ import backend from '../../public/backend.svg'
 import Image from 'next/image'
 
 import ActiveLink from '../components/linked'
+import Footer from '../components/footer'
 export default function About () {
 
     return <>
@@ -188,5 +189,6 @@ export default function About () {
             </div>
             </div>
         </div>
+        <Footer />
         </>
 }

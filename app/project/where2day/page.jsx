@@ -6,6 +6,7 @@ import teacher from '../../../public/img-3.png'
 import database from '../../../public/img-4.png'
 import frontend from '../../../public/img-5.png'
 import backend from '../../../public/backend.svg'
+import Footer from "../../components/footer"
 export default function Where2day () {
     return <>
     <div className="scrollpy scrollpy-1">
@@ -133,5 +134,6 @@ export default function Where2day () {
             </div>
             
             </div>
-        </div></>
+        </div>
+        <Footer /></>
 }
