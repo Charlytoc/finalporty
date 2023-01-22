@@ -20,7 +20,6 @@ export default function Contact () {
 
   return (
     <>
-    <Navbar />
     <form className='contact-form' ref={form} onSubmit={sendEmail}>
       <h1>Contact me!</h1>
       <label>Name</label>

@@ -4,6 +4,5 @@ import Navbar from "../../components/navbar";
 
 export default function PostBlog () {
     return <>
-    <Navbar />
     <CreatePost /></>
 }

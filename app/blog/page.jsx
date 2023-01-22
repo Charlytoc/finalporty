@@ -34,15 +34,15 @@ export default function Blog () {
 // :
     return <>
     <div className="blog-container">
-    <Navbar />
-    <h1>Welcome to my personal blog, here you can know the best</h1>
+    {/* <Navbar /> */}
+    <h1>Welcome to my personal blog, here you can know me the best</h1>
     {/* <CreatePost /> */}
     <div id="posts-container">  {posts.map((item, index) => {
         return <div key={index}><Article 
         title={item.title}
         user={'Charlytoc'}
         category={item.category}
-        description={'    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum reiciendis maxime ea voluptatibus sit eum eos sint quae aut ipsa soluta labore debitis facere atque, incidunt aliquam ad repudiandae molestiae?'}
+        description={item.description}
       /></div>
         
     })}

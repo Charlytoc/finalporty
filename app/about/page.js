@@ -61,8 +61,28 @@ export default function About () {
             </div>
         </div>
         {/* End of section */}{/* Beginning of section */}
+        <div id="sc-2" className="scrollpy scrollpy-2">
+        <h1>Job experience</h1>
+            <div>
+            
+            <div>
+                <h2>Python specialist and data Scientist</h2>
+                <p>At: 4GeeksAcademy<br/> Date: November 2022 - Now<br/> 
+                </p>
+                <h3>
+                Working here has helped me specialize as a backend developer and have a better relationship with the data
+                </h3>
+            </div>
+            <div>
+                <Image src={database} width={700} height={700} alt='Coding' style={{
+                    width: '100%',
+                    height: 'auto'
+                }}/>
+            </div>
+            </div>
+        </div>
         <div id="sc-2" className="scrollpy scrollpy-3">
-            <h1>Job experience</h1>
+     
             <div>
             <div>
                 <Image src={teacher} width={700} height={700} alt='Coding' style={{
@@ -81,6 +101,7 @@ export default function About () {
             </div>
         </div>
         {/* End of section */}
+        
         {/* Beginning of section */}
         <div id="sc-2" className="scrollpy scrollpy-2">
             <div>
@@ -184,10 +205,15 @@ export default function About () {
                 <p>Learning is the thing I love the most, so<br/> 
                 </p>
                 <h3 style={{display: 'block'}}>
-                    I'll be happy with the opportunity to learn new things, if you have an offer just <ActiveLink href={'/contact'}>contact me!</ActiveLink>
+                    I'll be happy with the opportunity to learn new things, if you have an offer just <ActiveLink href={'/contact'}>contact me!</ActiveLink> or
+                    <br/>
+                    
                 </h3>
+                <h2><ActiveLink className={'color-changing'} href={'/project/where2day'}>See my projects</ActiveLink></h2>
             </div>
+          
             </div>
+            
         </div>
         <Footer />
         </>

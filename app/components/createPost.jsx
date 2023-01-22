@@ -16,22 +16,20 @@ const CreatePost = () => {
     }
 
     return (
-        <form onSubmit={handleSubmit}>
+        <form className='create-post' onSubmit={handleSubmit}>
+            <h1>If you are here and you're not the page owner maybe you should go... Or post something nice</h1>
+
             <label>
-                Title:
+                Title
+                </label>
                 <input type="text" value={title} onChange={(e) => setTitle(e.target.value)} />
-            </label>
-            <br />
             <label>
-                Description:
-                <input type="text" value={description} onChange={(e) => setDescription(e.target.value)} />
-            </label>
-            <br />
+                Description</label>
+                <textarea type="text" value={description} onChange={(e) => setDescription(e.target.value)} />
+        
             <label>
-                Category:
+                Category</label>
                 <input type="text" value={category} onChange={(e) => setCategory(e.target.value)} />
-            </label>
-            <br />
             <input type="submit" value="Create Post" />
         </form>
     );

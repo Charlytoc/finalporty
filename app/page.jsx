@@ -17,7 +17,7 @@ export const showMenu = () => {
 export default function Home() {
   return (
    <>
-  <Navbar />
+  {/* <Navbar /> */}
    <Fancy />
     </>
   )

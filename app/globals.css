@@ -29,12 +29,14 @@ body {
 }
 
 nav {
-  /* width: 100vw; */
+  /* position: sticky; */
+  /* top: 0; */
   display: flex;
   padding: 5vmin;
   justify-content: space-between;
   align-items: center;
   z-index: 3;
+
 
 }
 nav div {
@@ -57,6 +59,7 @@ nav h2 {
 nav h2:hover {
   /* background: linear-gradient(132deg, var(--clr-flower), var(--clr-active)); */
   background-image: url('../public/haikei.svg');
+  background-size: cover;
 }
 nav .blog-button {
   /* background-color: #0b0b0b; */
@@ -76,6 +79,7 @@ nav div span > a {
 nav div span:hover {
   /* background: linear-gradient(132deg, var(--clr-flower), var(--clr-active)); */
   background-image: url('../public/haikei.svg');
+  background-size: cover;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -112,6 +116,7 @@ nav div span:hover {
   transition: transform 300ms;
   /* background: linear-gradient(132deg, var(--clr-flower), var(--clr-active)); */
   background-image: url('../public/haikei.svg');
+  background-size: cover;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -121,6 +126,7 @@ nav div span:hover {
   transition: transform 300ms;
   /* background: linear-gradient(132deg, var(--clr-flower), var(--clr-active)); */
   background-image: url('../public/haikei.svg');
+  background-size: cover;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
@@ -133,6 +139,7 @@ nav div span:hover {
   transition: transform 300ms;
   /* background: linear-gradient(132deg, var(--clr-flower), var(--clr-active)); */
   background-image: url('../public/haikei.svg');
+  background-size: cover;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -142,6 +149,7 @@ nav div span:hover {
   transition: transform 300ms;
   /* background: linear-gradient(132deg, var(--clr-flower), var(--clr-active)); */
   background-image: url('../public/haikei.svg');
+  background-size: cover;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -160,6 +168,8 @@ nav div span:hover {
   line-height: 5rem;
   /* background: linear-gradient(132deg, var(--clr-flower), var(--clr-active)); */
   background-image: url('../public/haikei.svg');
+  background-size: cover;
+  background-size: cover;
   text-transform: uppercase;
 }
 
@@ -222,4 +232,7 @@ nav div span:hover {
   background: linear-gradient(132deg, var(--clr-bg), #e1e1e1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.bg-change {
+  background-color: #f5c2d1;
 }

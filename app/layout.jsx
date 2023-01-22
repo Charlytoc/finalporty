@@ -18,6 +18,7 @@ export default function RootLayout({ children }) {
           <Menu />
         </div>
         <div id='mr-all'>
+          <Navbar />
         {children}
         </div>
         </body>
