@@ -1,0 +1,52 @@
+.blog-container {
+    background-color: rgb(255, 251, 244);
+    text-align: center;
+    
+ 
+}
+.blog-container > h1 {
+    font-size: 4rem;
+    background-image: url('../public/haikei.svg');
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#posts-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.article {
+    /* border: 1px var(--clr-flower) solid; */
+    text-align: center;
+    padding: 1rem;
+    max-width: 80vw;
+}
+.article h1 {
+    
+    text-align: center;
+    font-size: 2.6rem;
+    
+    line-height: 2rem;
+}
+.article div {
+
+     display: flex;
+     justify-content: center;
+     gap: 2rem;
+     font-size: 1.3rem;
+     margin-bottom: 0.5rem;
+     color: var(--clr-flower);
+}
+.article p {
+    font-size: 1rem;
+}
+/* @media (min-width: 700px) {
+    #posts-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+  grid-template-rows: auto;
+  grid-gap: 10px; 
+    }
+
+} */

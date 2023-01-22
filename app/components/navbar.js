@@ -1,7 +1,10 @@
 'use client'
 import ActiveLink from "./linked";
 
+      
+  
 export default function Navbar () {
+
     const showMenu = () => {
         let menu = document.getElementById('menu')
         let all = document.getElementById('mr-all')
@@ -16,6 +19,7 @@ export default function Navbar () {
     }
     return <>
     <nav><div><ActiveLink href={'/'}>Charlytoc</ActiveLink></div>
-   <h2 onClick={showMenu}>=</h2></nav>
+   <h2 onClick={showMenu}>=</h2>
+   <div className="blog-button"><ActiveLink href={'/blog'}>Blog</ActiveLink></div></nav>
    </>
 }

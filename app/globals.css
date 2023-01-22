@@ -58,6 +58,10 @@ nav h2:hover {
   /* background: linear-gradient(132deg, var(--clr-flower), var(--clr-active)); */
   background-image: url('../public/haikei.svg');
 }
+nav .blog-button {
+  /* background-color: #0b0b0b; */
+  margin-right: 4rem;
+}
 .linked {
   cursor: pointer;
 }
