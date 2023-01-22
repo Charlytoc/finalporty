@@ -103,7 +103,7 @@ export default function About () {
         {/* End of section */}
         
         {/* Beginning of section */}
-        <div id="sc-2" className="scrollpy scrollpy-2">
+        <div  className="scrollpy scrollpy-2">
             <div>
             
             <div>
@@ -124,7 +124,7 @@ export default function About () {
         </div>
         {/* End of section */}
         {/* End of section */}{/* Beginning of section */}
-        <div id="sc-2" className="scrollpy scrollpy-3">
+        <div  className="scrollpy scrollpy-3">
             <h1>Technologies</h1>
             <div>
             <div>
@@ -209,7 +209,7 @@ export default function About () {
                     <br/>
                     
                 </h3>
-                <h2><ActiveLink className={'color-changing'} href={'/project/where2day'}>See my projects</ActiveLink></h2>
+                <h2 className='mb'><ActiveLink className={'color-changing'} href={'/project/where2day'}>See my projects</ActiveLink></h2>
             </div>
           
             </div>

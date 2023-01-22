@@ -2,7 +2,7 @@
 .scrollpy:not(.ignore) {
     width: 100vw;
     height: 100vh;
-    overflow: hidden;
+    overflow: x;
     margin-bottom: 4rem;
 }
 .ignored {
@@ -87,6 +87,7 @@
     height: 100%;
     width: 100%;
     padding: 0 1.5rem 0 1.5rem;
+ 
 }
 .scrollpy-3 div {
     display: grid;
@@ -203,7 +204,8 @@
     cursor: pointer;
 }
 
-footer {
+footer { 
+    bottom: 0;
     display: flex;
     flex-direction: column;
     align-items: center;

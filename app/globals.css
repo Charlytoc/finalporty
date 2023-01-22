@@ -236,3 +236,7 @@ nav div span:hover {
 .bg-change {
   background-color: #f5c2d1;
 }
+.mb {
+  margin-bottom: 3rem;
+  z-index: 3;
+}
