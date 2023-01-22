@@ -209,7 +209,6 @@ export default function About () {
                     <br/>
                     
                 </h3>
-                <h2 className='mb'><ActiveLink className={'color-changing'} href={'/project/where2day'}>See my projects</ActiveLink></h2>
             </div>
           
             </div>

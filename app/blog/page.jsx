@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react"
 import Article from "../components/article"
 import CreatePost from "../components/createPost"
+import Footer from "../components/footer"
 import Navbar from "../components/navbar"
 export default function Blog () {
     const [posts, setPosts] = useState([])
@@ -48,5 +49,6 @@ export default function Blog () {
     })}
 
     </div></div>
+    <Footer />
       </>
 }

@@ -2,7 +2,7 @@
 .scrollpy:not(.ignore) {
     width: 100vw;
     height: 100vh;
-    overflow: x;
+    overflow: hidden;
     margin-bottom: 4rem;
 }
 .ignored {
@@ -205,10 +205,13 @@
 }
 
 footer { 
-    bottom: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+footer  div {
+    display: flex;
+    gap: 2.5rem;
 }
 footer a {
     color: inherit;
